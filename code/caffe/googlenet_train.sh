@@ -1,0 +1,1 @@
+/home/zhaokui/code/caffe/build/tools/caffe train --solver="/home/zhaokui/research/KDD/code/caffe/siamese_googlenet/solver.prototxt" --weights="/home/zhaokui/research/KDD/code/caffe/siamese_googlenet/googlenet.caffemodel"

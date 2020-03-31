@@ -1,0 +1,4 @@
+bash convert_imageset_siamese_train.sh
+bash convert_imageset_siamese_test.sh
+bash compute_imagest_mean.sh
+bash googlenet_train.sh

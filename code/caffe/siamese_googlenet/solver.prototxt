@@ -1,0 +1,14 @@
+net: "/home/zhaokui/research/KDD/code/caffe/siamese_googlenet/train_val.prototxt"
+test_iter: 500
+test_interval: 500
+base_lr: 0.0001
+lr_policy: "step"
+gamma: 0.96
+stepsize: 73000
+display: 100
+max_iter: 2000000
+momentum: 0.1
+weight_decay: 0.00002
+snapshot: 10000
+snapshot_prefix: "googlenet"
+solver_mode: GPU
